@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>1.png</string>
+		<key>UserID</key>
+		<string>张润峰</string>
+		<key>Content</key>
+		<string>早上八点钟到公司</string>
+		<key>CDate</key>
+		<string>2016-4-1</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>1.png</string>
+		<key>CDate</key>
+		<string>2016-4-2</string>
+		<key>Content</key>
+		<string>上班又迟到</string>
+		<key>UserID</key>
+		<string>万致远</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>1.png</string>
+		<key>CDate</key>
+		<string>2016-4-3</string>
+		<key>UserID</key>
+		<string>李展</string>
+		<key>Content</key>
+		<string>上午上班打游戏</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>1.png</string>
+		<key>CDate</key>
+		<string>2016-4-4</string>
+		<key>UserID</key>
+		<string>洪志凌</string>
+		<key>Content</key>
+		<string>上午上班早退</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>1.png</string>
+		<key>CDate</key>
+		<string>2016-4-5</string>
+		<key>UserID</key>
+		<string>迟到</string>
+		<key>Content</key>
+		<string>罗福婷</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>1.png</string>
+		<key>CDate</key>
+		<string>2016-4-6</string>
+		<key>UserID</key>
+		<string>陈格格</string>
+		<key>Content</key>
+		<string>表现优秀</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Notes>
+  <Note id="1">
+    <CDate>2016-4-1</CDate>
+    <Content>早上8点钟到公司</Content>
+    <UserID>张润峰</UserID>
+  </Note>
+  <Note id="2">
+    <CDate>2016-4-2</CDate>
+    <Content>上班又迟到</Content>
+    <UserID>万致远</UserID>
+  </Note>
+  <Note id="3">
+    <CDate>2016-4-3</CDate>
+    <Content>上午上班打游戏</Content>
+    <UserID>李展</UserID>
+  </Note>
+  <Note id="4">
+    <CDate>2016-4-4</CDate>
+    <Content>上午上班早退</Content>
+    <UserID>洪志凌</UserID>
+  </Note>
+  <Note id="5">
+    <CDate>2016-4-5</CDate>
+    <Content>迟到</Content>
+    <UserID>罗福婷</UserID>
+  </Note>
+  <Note id="6">
+    <CDate>2016-4-6</CDate>
+    <Content>表现优秀</Content>
+    <UserID>陈格格</UserID>
+  </Note>
+</Notes>
