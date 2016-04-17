@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04AF1CF11CC2395E00394945 /* TYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AF1CEF1CC2395E00394945 /* TYTableViewCell.m */; };
+		04AF1CF21CC2395E00394945 /* TYTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AF1CF01CC2395E00394945 /* TYTableViewCell.xib */; };
 		04BD671D1CB8DA8F00573841 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD671C1CB8DA8F00573841 /* main.m */; };
 		04BD67201CB8DA8F00573841 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD671F1CB8DA8F00573841 /* AppDelegate.m */; };
 		04BD67261CB8DA8F00573841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BD67241CB8DA8F00573841 /* Main.storyboard */; };
@@ -22,8 +24,6 @@
 		04ED00E11CC0D5F6002408FD /* Musics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04ED00E01CC0D5F6002408FD /* Musics.plist */; };
 		04ED00E31CC0D92A002408FD /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04ED00E21CC0D92A002408FD /* 1.png */; };
 		04ED00E91CC0EA5F002408FD /* TYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED00E81CC0EA5F002408FD /* TYTableViewController.m */; };
-		04ED00F01CC12904002408FD /* TYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED00EE1CC12904002408FD /* TYTableViewCell.m */; };
-		04ED00F11CC12904002408FD /* TYTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ED00EF1CC12904002408FD /* TYTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04AF1CEE1CC2395E00394945 /* TYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYTableViewCell.h; path = ../TYTableViewCell.h; sourceTree = "<group>"; };
+		04AF1CEF1CC2395E00394945 /* TYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYTableViewCell.m; path = ../TYTableViewCell.m; sourceTree = "<group>"; };
+		04AF1CF01CC2395E00394945 /* TYTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TYTableViewCell.xib; path = ../TYTableViewCell.xib; sourceTree = "<group>"; };
 		04BD67181CB8DA8F00573841 /* 0409.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 0409.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BD671C1CB8DA8F00573841 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04BD671E1CB8DA8F00573841 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,9 +72,6 @@
 		04ED00E21CC0D92A002408FD /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		04ED00E71CC0EA5F002408FD /* TYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYTableViewController.h; path = ../TYTableViewController.h; sourceTree = "<group>"; };
 		04ED00E81CC0EA5F002408FD /* TYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYTableViewController.m; path = ../TYTableViewController.m; sourceTree = "<group>"; };
-		04ED00ED1CC12904002408FD /* TYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTableViewCell.h; sourceTree = "<group>"; };
-		04ED00EE1CC12904002408FD /* TYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTableViewCell.m; sourceTree = "<group>"; };
-		04ED00EF1CC12904002408FD /* TYTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,12 +125,12 @@
 			children = (
 				04BD671E1CB8DA8F00573841 /* AppDelegate.h */,
 				04BD671F1CB8DA8F00573841 /* AppDelegate.m */,
+				04AF1CEE1CC2395E00394945 /* TYTableViewCell.h */,
+				04AF1CEF1CC2395E00394945 /* TYTableViewCell.m */,
+				04AF1CF01CC2395E00394945 /* TYTableViewCell.xib */,
 				04BD67241CB8DA8F00573841 /* Main.storyboard */,
 				04ED00E71CC0EA5F002408FD /* TYTableViewController.h */,
 				04ED00E81CC0EA5F002408FD /* TYTableViewController.m */,
-				04ED00ED1CC12904002408FD /* TYTableViewCell.h */,
-				04ED00EE1CC12904002408FD /* TYTableViewCell.m */,
-				04ED00EF1CC12904002408FD /* TYTableViewCell.xib */,
 				04BD674E1CB8DBE800573841 /* TableViewController.h */,
 				04BD674F1CB8DBE800573841 /* TableViewController.m */,
 				04ED00DE1CC0D53D002408FD /* TYList.plist */,
@@ -291,7 +291,7 @@
 				04BD67541CB8E29700573841 /* Notes.xml in Resources */,
 				04BD67521CB8DC6C00573841 /* 103.png in Resources */,
 				04BD67261CB8DA8F00573841 /* Main.storyboard in Resources */,
-				04ED00F11CC12904002408FD /* TYTableViewCell.xib in Resources */,
+				04AF1CF21CC2395E00394945 /* TYTableViewCell.xib in Resources */,
 				04ED00DF1CC0D53D002408FD /* TYList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,7 +319,7 @@
 			files = (
 				04ED00E91CC0EA5F002408FD /* TYTableViewController.m in Sources */,
 				04BD67571CB8E46800573841 /* NotesXMLParser.m in Sources */,
-				04ED00F01CC12904002408FD /* TYTableViewCell.m in Sources */,
+				04AF1CF11CC2395E00394945 /* TYTableViewCell.m in Sources */,
 				04BD67201CB8DA8F00573841 /* AppDelegate.m in Sources */,
 				04BD671D1CB8DA8F00573841 /* main.m in Sources */,
 				04BD67501CB8DBE800573841 /* TableViewController.m in Sources */,
