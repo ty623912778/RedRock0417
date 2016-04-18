@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046628D71CC4C9DA00F178CA /* TYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046628D61CC4C9DA00F178CA /* TYTableViewController.m */; };
+		046628DB1CC4CDB800F178CA /* TYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 046628D91CC4CDB800F178CA /* TYTableViewCell.m */; };
+		046628DC1CC4CDB800F178CA /* TYTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046628DA1CC4CDB800F178CA /* TYTableViewCell.xib */; };
 		04A029C41CC289B400B4AECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A029C31CC289B400B4AECF /* main.m */; };
 		04A029C71CC289B400B4AECF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A029C61CC289B400B4AECF /* AppDelegate.m */; };
-		04A029CA1CC289B400B4AECF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A029C91CC289B400B4AECF /* ViewController.m */; };
 		04A029CD1CC289B400B4AECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A029CB1CC289B400B4AECF /* Main.storyboard */; };
 		04A029CF1CC289B400B4AECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A029CE1CC289B400B4AECF /* Assets.xcassets */; };
 		04A029D21CC289B400B4AECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A029D01CC289B400B4AECF /* LaunchScreen.storyboard */; };
 		04A029DD1CC289B400B4AECF /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A029DC1CC289B400B4AECF /* _____Tests.m */; };
 		04A029E81CC289B400B4AECF /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A029E71CC289B400B4AECF /* _____UITests.m */; };
+		04A029FF1CC4B3F600B4AECF /* card.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A029FE1CC4B3F600B4AECF /* card.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		046628D51CC4C9DA00F178CA /* TYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYTableViewController.h; path = ../TYTableViewController.h; sourceTree = "<group>"; };
+		046628D61CC4C9DA00F178CA /* TYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYTableViewController.m; path = ../TYTableViewController.m; sourceTree = "<group>"; };
+		046628D81CC4CDB800F178CA /* TYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTableViewCell.h; sourceTree = "<group>"; };
+		046628D91CC4CDB800F178CA /* TYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTableViewCell.m; sourceTree = "<group>"; };
+		046628DA1CC4CDB800F178CA /* TYTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYTableViewCell.xib; sourceTree = "<group>"; };
 		04A029BF1CC289B400B4AECF /* 请求一卡通.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "请求一卡通.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A029C31CC289B400B4AECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04A029C51CC289B400B4AECF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04A029C61CC289B400B4AECF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04A029C81CC289B400B4AECF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04A029C91CC289B400B4AECF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		04A029CC1CC289B400B4AECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04A029CE1CC289B400B4AECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A029D11CC289B400B4AECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,7 @@
 		04A029E31CC289B400B4AECF /* 请求一卡通UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "请求一卡通UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A029E71CC289B400B4AECF /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		04A029E91CC289B400B4AECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A029FE1CC4B3F600B4AECF /* card.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = card.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +110,15 @@
 			children = (
 				04A029C51CC289B400B4AECF /* AppDelegate.h */,
 				04A029C61CC289B400B4AECF /* AppDelegate.m */,
-				04A029C81CC289B400B4AECF /* ViewController.h */,
-				04A029C91CC289B400B4AECF /* ViewController.m */,
+				046628D51CC4C9DA00F178CA /* TYTableViewController.h */,
+				046628D61CC4C9DA00F178CA /* TYTableViewController.m */,
+				046628D81CC4CDB800F178CA /* TYTableViewCell.h */,
+				046628D91CC4CDB800F178CA /* TYTableViewCell.m */,
+				046628DA1CC4CDB800F178CA /* TYTableViewCell.xib */,
 				04A029CB1CC289B400B4AECF /* Main.storyboard */,
 				04A029CE1CC289B400B4AECF /* Assets.xcassets */,
 				04A029D01CC289B400B4AECF /* LaunchScreen.storyboard */,
+				04A029FE1CC4B3F600B4AECF /* card.plist */,
 				04A029D31CC289B400B4AECF /* Info.plist */,
 				04A029C21CC289B400B4AECF /* Supporting Files */,
 			);
@@ -245,6 +256,8 @@
 			files = (
 				04A029D21CC289B400B4AECF /* LaunchScreen.storyboard in Resources */,
 				04A029CF1CC289B400B4AECF /* Assets.xcassets in Resources */,
+				04A029FF1CC4B3F600B4AECF /* card.plist in Resources */,
+				046628DC1CC4CDB800F178CA /* TYTableViewCell.xib in Resources */,
 				04A029CD1CC289B400B4AECF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A029CA1CC289B400B4AECF /* ViewController.m in Sources */,
+				046628DB1CC4CDB800F178CA /* TYTableViewCell.m in Sources */,
+				046628D71CC4C9DA00F178CA /* TYTableViewController.m in Sources */,
 				04A029C71CC289B400B4AECF /* AppDelegate.m in Sources */,
 				04A029C41CC289B400B4AECF /* main.m in Sources */,
 			);
@@ -496,6 +510,7 @@
 				04A029EE1CC289B400B4AECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04A029EF1CC289B400B4AECF /* Build configuration list for PBXNativeTarget "请求一卡通Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +519,7 @@
 				04A029F11CC289B400B4AECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04A029F21CC289B400B4AECF /* Build configuration list for PBXNativeTarget "请求一卡通UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +528,7 @@
 				04A029F41CC289B400B4AECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

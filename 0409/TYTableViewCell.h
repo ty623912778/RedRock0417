@@ -10,6 +10,8 @@
 
 @interface TYTableViewCell : UITableViewCell
 
+
+
 @property (weak, nonatomic) IBOutlet UILabel *UserID;
 @property (weak, nonatomic) IBOutlet UILabel *CDate;
 @property (weak, nonatomic) IBOutlet UILabel *Content;

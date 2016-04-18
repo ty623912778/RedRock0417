@@ -1,8 +1,8 @@
 //
 //  TYTableViewController.h
-//  0409
+//  请求一卡通
 //
-//  Created by mac on 16/4/15.
+//  Created by mac on 16/4/18.
 //  Copyright © 2016年 mac. All rights reserved.
 //
 
@@ -13,5 +13,4 @@
 
 @property (strong, nonatomic) NSArray *list;
 @property (strong, nonatomic) NSArray *dataList;
-
 @end
